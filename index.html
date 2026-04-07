@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GCH Bâtiment – L'excellence du bâtiment à Bordeaux</title>
+  <meta name="description" content="GCH Bâtiment, spécialiste en plâtrerie, peinture et carrelage à Bordeaux. Projets neufs et rénovation haut de gamme." />
+
+  <!-- Google Fonts : Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-main">GCH</span>
+        <span class="nav__logo-sub">Bâtiment</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#realisations">Réalisations</a></li>
+        <li><a href="#pourquoi">Expertise</a></li>
+        <li><a href="#contact" class="nav__cta">Devis</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mobile-link">À propos</a></li>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#realisations" class="mobile-link">Réalisations</a></li>
+        <li><a href="#pourquoi" class="mobile-link">Expertise</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <!-- Placeholder image – remplacer par une vraie photo chantier -->
+      <img
+        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80&auto=format&fit=crop"
+        alt="Chantier haut de gamme GCH Bâtiment"
+        class="hero__img"
+      />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Bordeaux · Plâtrerie · Peinture · Carrelage</p>
+      <h1 class="hero__title reveal reveal--delay-1">
+        L'excellence<br />
+        <em>du bâtiment</em><br />
+        à Bordeaux
+      </h1>
+      <p class="hero__subtitle reveal reveal--delay-2">
+        Plâtrerie, peinture et carrelage &mdash; neuf &amp; rénovation.<br />
+        Des finitions irréprochables, à la hauteur de vos ambitions.
+      </p>
+      <a href="#contact" class="btn btn--outline reveal reveal--delay-3">
+        <span>Demander un devis</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <div class="hero__scroll">
+      <span>Découvrir</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== À PROPOS ========== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__visual reveal">
+          <div class="about__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80&auto=format&fit=crop"
+              alt="Artisan GCH Bâtiment au travail"
+            />
+          </div>
+          <div class="about__badge">
+            <span class="about__badge-num">10+</span>
+            <span class="about__badge-text">Années d'expérience</span>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section-label reveal">À propos</p>
+          <h2 class="section-title reveal reveal--delay-1">
+            Artisans du détail,<br /><em>gardiens du résultat</em>
+          </h2>
+          <p class="about__text reveal reveal--delay-2">
+            Basée à Bordeaux, GCH Bâtiment est une entreprise spécialisée dans les corps d'état secondaires
+            du bâtiment. De la construction neuve à la rénovation complète, nous intervenons avec la même
+            exigence : des finitions parfaites, dans les délais convenus.
+          </p>
+          <p class="about__text reveal reveal--delay-2">
+            Notre philosophie est simple — chaque surface est une signature. C'est pourquoi nous ne
+            faisons aucun compromis sur la qualité des matériaux, la précision du geste et le soin
+            apporté à chaque projet, quelle que soit son envergure.
+          </p>
+          <div class="about__stats reveal reveal--delay-3">
+            <div class="about__stat">
+              <span class="about__stat-num">250+</span>
+              <span class="about__stat-label">Projets réalisés</span>
+            </div>
+            <div class="about__stat-divider"></div>
+            <div class="about__stat">
+              <span class="about__stat-num">100%</span>
+              <span class="about__stat-label">Clients satisfaits</span>
+            </div>
+            <div class="about__stat-divider"></div>
+            <div class="about__stat">
+              <span class="about__stat-num">2</span>
+              <span class="about__stat-label">Corps d'état maîtrisés</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Nos services</p>
+        <h2 class="section-title">
+          Un savoir-faire,<br /><em>trois expertises</em>
+        </h2>
+      </div>
+      <div class="services__grid">
+
+        <!-- Plâtrerie -->
+        <div class="service-card reveal reveal--delay-1">
+          <div class="service-card__icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <rect x="4" y="4" width="24" height="24" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10 16h12M10 11h7M10 21h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="service-card__num">01</div>
+          <h3 class="service-card__title">Plâtrerie</h3>
+          <p class="service-card__text">
+            Cloisons, doublages, plafonds suspendus, isolation thermique et phonique.
+            Nous maîtrisons l'ensemble des techniques plâtrerie pour des intérieurs
+            parfaitement finis.
+          </p>
+          <ul class="service-card__list">
+            <li>Cloisons & doublages</li>
+            <li>Plafonds BA13 & staff</li>
+            <li>Isolation intérieure</li>
+            <li>Enduits & ragréage</li>
+          </ul>
+        </div>
+
+        <!-- Peinture -->
+        <div class="service-card service-card--featured reveal reveal--delay-2">
+          <div class="service-card__icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path d="M8 24c0-1.1.9-2 2-2h12a2 2 0 0 1 0 4H10a2 2 0 0 1-2-2Z" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M16 22V10M12 14l4-4 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="24" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="service-card__num">02</div>
+          <h3 class="service-card__title">Peinture</h3>
+          <p class="service-card__text">
+            Peinture intérieure et extérieure, préparation des supports, teintes sur mesure.
+            Un résultat digne des plus belles demeures bordelaises.
+          </p>
+          <ul class="service-card__list">
+            <li>Peinture intérieure</li>
+            <li>Peinture extérieure</li>
+            <li>Ravalement de façade</li>
+            <li>Finitions décoratives</li>
+          </ul>
+        </div>
+
+        <!-- Carrelage -->
+        <div class="service-card reveal reveal--delay-3">
+          <div class="service-card__icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <rect x="4" y="4" width="11" height="11" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="17" y="4" width="11" height="11" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="4" y="17" width="11" height="11" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="17" y="17" width="11" height="11" rx="1" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="service-card__num">03</div>
+          <h3 class="service-card__title">Carrelage</h3>
+          <p class="service-card__text">
+            Pose de carrelage sol et mural, mosaïque, grands formats, joints de haute
+            précision. Chaque pose est un travail d'orfèvre.
+          </p>
+          <ul class="service-card__list">
+            <li>Carrelage sol & mur</li>
+            <li>Grands formats</li>
+            <li>Faïence & mosaïque</li>
+            <li>Terrasses & extérieurs</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RÉALISATIONS ========== -->
+  <section class="realisations" id="realisations">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Nos réalisations</p>
+        <h2 class="section-title">
+          Chaque chantier,<br /><em>une référence</em>
+        </h2>
+        <p class="section-desc">
+          Découvrez une sélection de nos projets récents — de la rénovation intimiste
+          au chantier neuf d'envergure.
+        </p>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <div class="gallery__item gallery__item--wide reveal">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80&auto=format&fit=crop" alt="Réalisation peinture intérieure" loading="lazy" />
+        <div class="gallery__overlay">
+          <span class="gallery__tag">Peinture intérieure</span>
+          <p class="gallery__location">Bordeaux, 2024</p>
+        </div>
+      </div>
+      <div class="gallery__item reveal reveal--delay-1">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80&auto=format&fit=crop" alt="Réalisation carrelage cuisine" loading="lazy" />
+        <div class="gallery__overlay">
+          <span class="gallery__tag">Carrelage</span>
+          <p class="gallery__location">Mérignac, 2024</p>
+        </div>
+      </div>
+      <div class="gallery__item reveal reveal--delay-2">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80&auto=format&fit=crop" alt="Réalisation plâtrerie salon" loading="lazy" />
+        <div class="gallery__overlay">
+          <span class="gallery__tag">Plâtrerie</span>
+          <p class="gallery__location">Bordeaux, 2023</p>
+        </div>
+      </div>
+      <div class="gallery__item reveal reveal--delay-1">
+        <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=80&auto=format&fit=crop" alt="Réalisation salle de bain" loading="lazy" />
+        <div class="gallery__overlay">
+          <span class="gallery__tag">Carrelage & Peinture</span>
+          <p class="gallery__location">Pessac, 2024</p>
+        </div>
+      </div>
+      <div class="gallery__item reveal reveal--delay-2">
+        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80&auto=format&fit=crop" alt="Réalisation chambre peinture" loading="lazy" />
+        <div class="gallery__overlay">
+          <span class="gallery__tag">Peinture</span>
+          <p class="gallery__location">Talence, 2023</p>
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--wide reveal reveal--delay-1">
+        <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=900&q=80&auto=format&fit=crop" alt="Réalisation entrée haut de gamme" loading="lazy" />
+        <div class="gallery__overlay">
+          <span class="gallery__tag">Plâtrerie & Peinture</span>
+          <p class="gallery__location">Bordeaux Lac, 2024</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="realisations__cta reveal">
+      <a href="https://www.instagram.com/gch.batiment/" target="_blank" rel="noopener" class="btn btn--dark">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+          <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+        </svg>
+        <span>Voir plus sur Instagram</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== POURQUOI NOUS ========== -->
+  <section class="pourquoi" id="pourquoi">
+    <div class="pourquoi__bg-text" aria-hidden="true">GCH</div>
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Notre différence</p>
+        <h2 class="section-title">
+          Pourquoi choisir<br /><em>GCH Bâtiment ?</em>
+        </h2>
+      </div>
+      <div class="pourquoi__grid">
+        <div class="pourquoi__card reveal reveal--delay-1">
+          <div class="pourquoi__card-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M14 3l2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L14 17.3 8.4 20.2l1.1-6.2L5 9.6l6.2-.9L14 3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Expertise métier</h3>
+          <p>Plus de 10 ans de savoir-faire dans les trois corps d'état. Notre équipe maîtrise chaque technique, des plus classiques aux plus contemporaines.</p>
+        </div>
+        <div class="pourquoi__card reveal reveal--delay-2">
+          <div class="pourquoi__card-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M14 4C8.5 4 4 8.5 4 14s4.5 10 10 10 10-4.5 10-10S19.5 4 14 4z" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M14 9v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Respect des délais</h3>
+          <p>Chez GCH, un engagement tenu est une promesse respectée. Nous planifions rigoureusement pour livrer chaque chantier dans les temps, sans compromis sur la qualité.</p>
+        </div>
+        <div class="pourquoi__card reveal reveal--delay-3">
+          <div class="pourquoi__card-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M6 14l5 5 11-11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Finitions premium</h3>
+          <p>La dernière couche de peinture, le joint parfait, la cloison au millimètre. Ce sont ces détails qui font la différence entre un chantier ordinaire et une réalisation d'exception.</p>
+        </div>
+        <div class="pourquoi__card reveal reveal--delay-1">
+          <div class="pourquoi__card-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M14 4l2 6h6l-5 3.5 2 6L14 16l-5 3.5 2-6L6 10h6l2-6z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Matériaux sélectionnés</h3>
+          <p>Nous travaillons exclusivement avec des matériaux de première qualité, sélectionnés auprès de fournisseurs reconnus pour leur durabilité et leur esthétique.</p>
+        </div>
+        <div class="pourquoi__card reveal reveal--delay-2">
+          <div class="pourquoi__card-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M9 14h10M14 9v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="14" cy="14" r="10" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3>Accompagnement total</h3>
+          <p>Du premier rendez-vous à la livraison finale, vous avez un interlocuteur unique, disponible, transparent sur les coûts et attentif à vos attentes.</p>
+        </div>
+        <div class="pourquoi__card reveal reveal--delay-3">
+          <div class="pourquoi__card-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M14 4C8.5 4 4 8.5 4 14s4.5 10 10 10 10-4.5 10-10S19.5 4 14 4z" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10 14l2.5 2.5 5.5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Garantie décennale</h3>
+          <p>Tous nos travaux sont couverts par une assurance décennale et responsabilité civile professionnelle. Vous êtes protégés, en toute sérénité.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="contact__content">
+        <p class="section-label reveal" style="color: rgba(255,255,255,0.5)">Contact</p>
+        <h2 class="contact__title reveal reveal--delay-1">
+          Un projet ?<br /><em>Parlons-en.</em>
+        </h2>
+        <p class="contact__desc reveal reveal--delay-2">
+          Partagez-nous votre projet — qu'il s'agisse d'une rénovation, d'une construction neuve
+          ou d'un simple rafraîchissement. Nous vous répondons sous 24h avec un devis clair et détaillé.
+        </p>
+        <div class="contact__infos reveal reveal--delay-3">
+          <a href="tel:+33600000000" class="contact__info-item">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <path d="M3 3h3l1.5 3.75-1.875 1.125C6.75 9.75 8.25 11.25 10.125 12.375L11.25 10.5 15 12v3c0 .828-.672 1.5-1.5 1.5C7.5 16.5 1.5 10.5 1.5 4.5A1.5 1.5 0 0 1 3 3z" stroke="currentColor" stroke-width="1.25"/>
+            </svg>
+            <span>+33 6 00 00 00 00</span>
+          </a>
+          <a href="mailto:contact@gch-batiment.fr" class="contact__info-item">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <rect x="1.5" y="3.75" width="15" height="10.5" rx="1.5" stroke="currentColor" stroke-width="1.25"/>
+              <path d="M1.5 6l7.5 4.5L16.5 6" stroke="currentColor" stroke-width="1.25"/>
+            </svg>
+            <span>contact@gch-batiment.fr</span>
+          </a>
+          <div class="contact__info-item">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <path d="M9 1.5A5.25 5.25 0 0 0 3.75 6.75C3.75 11.25 9 16.5 9 16.5s5.25-5.25 5.25-9.75A5.25 5.25 0 0 0 9 1.5z" stroke="currentColor" stroke-width="1.25"/>
+              <circle cx="9" cy="6.75" r="1.875" stroke="currentColor" stroke-width="1.25"/>
+            </svg>
+            <span>Bordeaux & Gironde</span>
+          </div>
+        </div>
+        <div class="contact__actions reveal reveal--delay-3">
+          <a href="mailto:contact@gch-batiment.fr" class="btn btn--white">
+            <span>Obtenir un devis</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://www.instagram.com/gch.batiment/" target="_blank" rel="noopener" class="contact__instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+            </svg>
+            <span>@gch.batiment</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo-main">GCH</span>
+          <span class="footer__logo-sub">Bâtiment</span>
+        </div>
+        <p class="footer__tagline">Plâtrerie · Peinture · Carrelage</p>
+        <p class="footer__copy">&copy; 2025 GCH Bâtiment – Bordeaux. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
